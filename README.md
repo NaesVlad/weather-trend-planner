@@ -1,16 +1,20 @@
-# React + Vite
+Weather Trend Planner 
+  A modern, responsive weather dashboard built with React and Vite. This application visualizes a 5-day temperature forecast using Chart.js and real-time data from the OpenWeatherMap API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+  Real-time Forecast: Fetches the latest 5-day weather data.
 
-Currently, two official plugins are available:
+  Visual Trends: Interactive line/bar charts showing temperature fluctuations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+  Responsive Design: Fully functional on both mobile and desktop browsers.
 
-## React Compiler
+  Search Functionality: Get weather data for any city worldwide.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tech Stack
+  Frontend: React.js, Vite
 
-## Expanding the ESLint configuration
+  Data Visualization: Chart.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  API: OpenWeatherMap API
+
+  Styling: CSS3
