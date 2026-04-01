@@ -1,0 +1,49 @@
+/* Core setup for the whole page */
+:root {
+  background-color: #ffffff !important; /* Forces white background */
+  color: #000000 !important;            /* Forces black text */
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+/* Center the app on the screen */
+#root {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Designing the boxes to match your hand-drawn image */
+.info-card, .chart-container, .insight-box, .weather-box {
+  border: 1px solid #000000; /* Solid black border from sketch */
+  padding: 20px;
+  margin-bottom: 25px;
+  background-color: #ffffff;
+  text-align: left; /* Aligns text to the left like your drawing */
+}
+
+/* Requirement 3: Search Bar Styling */
+input {
+  padding: 8px;
+  border: 1px solid #000;
+  margin-right: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 15px;
+  border: 1px solid #000;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+/* Requirement 4 & 5: Underlined Headers from sketch */
+h2, h3 {
+  text-decoration: underline;
+  margin-top: 0;
+}
